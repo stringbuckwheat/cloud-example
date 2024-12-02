@@ -1,0 +1,11 @@
+server:
+  port: 8081  # Test Service 기본 포트
+
+spring:
+  application:
+    name: test-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  # Eureka Server URL
